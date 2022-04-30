@@ -156,9 +156,7 @@ class Index extends Component{
                             <p>Gender : Male</p>
                             <p>Religion : Islam</p>
                             <p>Citizenship : Indonesian Citizens</p>
-                            <a href={cv} download>
-                                <button className="btn"><a href="">DOWNLOAD CV</a></button>
-                            </a>
+                            <button className="btn"><a href={cv} download>DOWNLOAD CV</a></button>
                         </div>
                     </div>
                 </section>
