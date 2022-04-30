@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import './index.css';
 import sideBars from "./sideBar";
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter';
@@ -25,7 +25,25 @@ import ilus4 from '../Assets/undraw_profile_re_4a55.svg';
 import logo2 from '../Assets/logo2.png';
 import cv from '../Assets/CV_Ringgo Galih Sadewo.pdf';
 
+import humMenu from './humMenu.jsx';
+
 class Index extends Component{
+
+    constructor() {
+        super();
+        this.state = {
+            bars: false
+        }
+    }
+
+    componentDidMount() {
+        console.log(this.state.bars)
+    }
+
+    componentWillUpdate() {
+        console.log(this.state.bars)
+    }
+
     render(){
         return(
             <div className="container">
@@ -58,11 +76,14 @@ class Index extends Component{
                                     <a href="#skills">My Skills</a>
                                 </li>
                             </div>
-                            <div className="bars">
-                                <button onClick={<sideBars/>}>
+                            {/* <div className="bars">
+                                <button onClick={() => this.setState({bars: true})}>
                                     <FontAwesomeIcon icon={faBars} />
                                 </button>
                             </div>
+                            <div className="humbergerMenu">
+                                {this.state.bars && <humMenu/>}
+                            </div> */}
                         </ul>
                         {/* <div className="iconNav">
                                 <img src={bars} alt="" />
@@ -70,6 +91,8 @@ class Index extends Component{
                     </div>
                 </nav>
                 {/* End Navbar */}
+
+                {}
 
                 {/* Banner */}
                 <section id="banner">
