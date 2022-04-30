@@ -462,6 +462,7 @@ footer .logo img {
     #banner {
         flex-direction: column;
         align-items: center;
+        padding: 2rem;
     }
 
     .bannerHero {
@@ -469,11 +470,9 @@ footer .logo img {
     }
 
     #banner .col-1 {
-        width: 100%;
-        padding: 1rem;
+        width: auto;
         margin: auto;
-        margin-left: 0.6rem;
-        padding-top: 2rem;
+        padding: 0px;
         margin-bottom: 20vh;
     }
 
@@ -491,7 +490,7 @@ footer .logo img {
         position: absolute;
         right: 0;
         bottom: 0;
-        height: 400px;
+        height: 50vh;
     }
 
     .btnHero {
