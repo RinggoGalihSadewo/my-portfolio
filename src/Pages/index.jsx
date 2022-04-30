@@ -118,7 +118,7 @@ class Index extends Component{
                             <a href="https://github.com/RinggoGalihSadewo" target="_blank" className="sosmed">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a href="https://github.com/RinggoGalihSadewo" target="_blank" className="sosmed">
+                            <a href="https://instagram.com/ringgo.gs" target="_blank" className="sosmed">
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
                             <a href="https://soundcloud.com/zailon" target="_blank" className="sosmed">
