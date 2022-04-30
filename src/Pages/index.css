@@ -8,13 +8,10 @@
     --dark-color: #3A4149;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
+html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;    
@@ -118,7 +115,7 @@ nav ul {
 }
 
 #banner .col-1 h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     line-height: 0%;
 }
 
