@@ -74,7 +74,7 @@ class Index extends Component{
                 {/* Banner */}
                 <section id="banner">
                     <div className="col-1" data-aos="fade-right">
-                        <h1>Hello, I'm 
+                        <h1>Hello, I'm SDASD
                             <Typewriter 
                                 words={[' Ringgo Galih Sadewo']}
                                 cursor
@@ -133,7 +133,7 @@ class Index extends Component{
                             <p>Gender : Male</p>
                             <p>Religion : Islam</p>
                             <p>Citizenship : Indonesian Citizens</p>
-                            <a href={cv} downlod>
+                            <a href={cv} download>
                                 <button className="btn"><a href="">DOWNLOAD CV</a></button>
                             </a>
                         </div>
