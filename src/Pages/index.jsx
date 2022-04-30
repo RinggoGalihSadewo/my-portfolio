@@ -23,6 +23,7 @@ import soundcloud from '../Assets/soundcloud.png';
 import ilus3 from '../Assets/undraw_percentages_re_a1ao.svg';
 import ilus4 from '../Assets/undraw_profile_re_4a55.svg';
 import logo2 from '../Assets/logo2.png';
+import cv from '../Assets/CV_Ringgo Galih Sadewo.pdf';
 
 class Index extends Component{
     render(){
@@ -132,7 +133,9 @@ class Index extends Component{
                             <p>Gender : Male</p>
                             <p>Religion : Islam</p>
                             <p>Citizenship : Indonesian Citizens</p>
-                            <button className="btn"><a href="">DOWNLOAD CV</a></button>
+                            <a href={cv} downlod>
+                                <button className="btn"><a href="">DOWNLOAD CV</a></button>
+                            </a>
                         </div>
                     </div>
                 </section>
