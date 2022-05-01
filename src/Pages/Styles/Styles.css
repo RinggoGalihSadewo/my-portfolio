@@ -522,9 +522,10 @@ footer .logo img {
         margin-top: -4rem;
         margin-bottom: 2rem;
         text-align: justify;
+        width: 100%;
     }
 
-    .profile .btn {
+    .profile button {
         float: right;
     }
     

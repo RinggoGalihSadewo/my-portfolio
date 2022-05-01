@@ -21,7 +21,7 @@ class Profile extends Component {
                             <p>Email : ringgo.118140076@student.itera.ac.id</p>
                             <p>City : Bandar Lampung</p>
                             <p>Phone Number : 083177117265</p>
-                            <button className="btn"><a href={cv} download>DOWNLOAD CV</a></button>
+                            <button className="btn btnDownload"><a href={cv} download>DOWNLOAD CV</a></button>
                         </div>
                     </div>
                 </section>
