@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ilus2 from '../../Assets/undraw_hello_re_3evm.svg';
-import cv from '../../Assets/CV_Ringgo Galih Sadewo.pdf';
+import cv from '../../Assets/CV_Ringgo Galih Sadewo.png';
 
 class Profile extends Component {
     render(){
