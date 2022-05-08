@@ -110,18 +110,18 @@ nav ul {
 }
 
 #banner .col-1 {
-    width: 60%;
+    width: 70%;
     padding-top: 10rem;
     margin-left: 7rem;
 }
 
 #banner .col-1 h1 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     line-height: 0%;
 }
 
 #banner .col-1 p:nth-child(2) {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -133,6 +133,7 @@ nav ul {
 #banner .col-2 {
     margin-left: 2rem;
     height: 400px;
+    width: auto;
     margin-top: 0rem;
 }
 
@@ -466,10 +467,11 @@ footer .logo img {
         flex-direction: column;
         align-items: center;
         padding: 2rem;
+        position: relative;
     }
 
     .bannerHero {
-        position: relative;
+        
     }
 
     #banner .col-1 {
@@ -489,11 +491,19 @@ footer .logo img {
         line-height: 25px;
     }
 
-    #banner .col-2 img{
+    /* #banner .col-2 img{
         position: absolute;
         right: 0;
         bottom: 0;
         height: 50vh;
+    } */
+
+    #banner .col-2 img{
+        margin-top: 0;
+        position: absolute;
+        height: 50vh;
+        left: 0;
+        bottom: 0;
     }
 
     .btnHero {
