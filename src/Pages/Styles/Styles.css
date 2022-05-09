@@ -109,6 +109,15 @@ nav ul {
     justify-content: space-around;
 }
 
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    z-index: -99;
+    margin: auto;
+    animation: liniearBg 5s infinite;
+}
+
 #banner .col-1 {
     width: 70%;
     padding-top: 10rem;
@@ -132,13 +141,18 @@ nav ul {
 
 #banner .col-2 {
     margin-left: 2rem;
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 80%;
     margin-top: 0rem;
+    position: relative;
 }
 
 #banner .col-2 img{
     height: 100vh;
+    margin-top: 0rem;
+    position: absolute;
+    top: 0;
+    right: -3.7rem;
 }
 
 .btnHero {
@@ -165,6 +179,7 @@ nav ul {
     border-radius: 10px;
     font-size: 0.8rem;
     transition: 0.4s;
+    /* animation: liniearBg 5s infinite; */
 }
 
 .btn:hover {
@@ -388,23 +403,55 @@ nav ul {
 }
 
 @keyframes pulse {
+
     0% {
       background-color: var(--dark-color);
     }
+
     50% {
       background-color: var(--secondary-color);
     }
+
     100% {
         background-color: var(--dark-color);
     }
-  }
+
+}
+
+@keyframes liniearBg {
+
+    0% {
+        background-color: #007aa0;
+    }
+
+    50% {
+        background-color: #00466d;
+    }
+
+    75% {
+        background-color: var(--secondary-color);
+    }
+
+    100% {
+        background-color: #007aa0;
+    }
+
+    /* 75% {
+        background-color: #00b1ca;
+    }
+
+    100% {
+        background-color: #12ebe7;
+    } */
+
+}
 /* End My Skill */
 
 /* Contact */
 footer {
     height: auto;
     width: 100%;
-    background-color: var(--dark-color);
+    /* background-color: var(--dark-color); */
     padding: 0.2rem;
     display: flex;
     align-items: center;
@@ -412,6 +459,7 @@ footer {
     color: white;
     font-weight: 300;
     font-size: 0.7rem;
+    animation: liniearBg 5s infinite;
 }
 
 footer .logo img {
@@ -468,17 +516,25 @@ footer .logo img {
         align-items: center;
         padding: 2rem;
         position: relative;
+        padding-bottom: 0px;
+        height: auto;
     }
 
     .bannerHero {
         
     }
 
+    .circle { 
+        width: 230px;
+        height: 230px;
+        margin-right: 1rem;
+    }
+
     #banner .col-1 {
         width: auto;
         margin: auto;
         padding: 0px;
-        margin-bottom: 20vh;
+        margin-bottom: 5vh;
     }
 
     #banner .col-1 h1 {
@@ -498,12 +554,18 @@ footer .logo img {
         height: 50vh;
     } */
 
+    #banner .col-2 {
+        margin: auto;
+        height: 400px;
+    }
+
     #banner .col-2 img{
         margin-top: 0;
+        height: 100%;
+        text-align: center;
+        width: auto;
         position: absolute;
-        height: 50vh;
-        left: 0;
-        bottom: 0;
+        right: -100px;
     }
 
     .btnHero {

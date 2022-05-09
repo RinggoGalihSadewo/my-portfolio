@@ -44,6 +44,7 @@ class Banner extends Component {
                         </div>    
                     </div>
                     <div className="col-2" data-aos="fade">
+                        <div className="circle"></div>
                         <img src={ilus1} alt="" />
                     </div>
                 </section>
