@@ -16,14 +16,14 @@ class Banner extends Component {
                                 words={[' Ringgo Galih Sadewo']}
                                 cursor
                                 cursorStyle="_"
-                                typeSpeed={100}
+                                typeSpeed={350}
                             />
                         </h1>
                         <p>
-                            I'm an expert in the field of web apps, mobile apps, music composers.
+                            I'm an expert in the field of Web Apps, Mobile Apps, Music Composers.
                         </p>
                         <p>
-                            The technologies I usually use are Laravel, Bootstap, React js, React Native, JavaScript, MySQL, HTML5, CSS3, PHP and many more. This website my portfolio was built with React Js.
+                            The technologies I usually use are Laravel, Bootstrap, React js, React Native, JavaScript, MySQL, FL Studio and many more. This website my portfolio was built with React Js.
                         </p>
                         <div className="btnHero">
                             <a href="#profile">
