@@ -1,7 +1,7 @@
 import React,{ Component } from "react";
 import { Typewriter } from 'react-simple-typewriter';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faSoundcloud, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faLinkedin, faSoundcloud, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import ilus1 from '../../Assets/hero.png';
 
 class Banner extends Component {
@@ -31,6 +31,9 @@ class Banner extends Component {
                             </a>
                             <a href="https://github.com/RinggoGalihSadewo" target="_blank" className="sosmed">
                                 <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                            <a href="http://www.linkedin.com/in/ringgo-galih-sadewo" target="_blank" className="sosmed">
+                                <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                             <a href="https://instagram.com/ringgo.gs" target="_blank" className="sosmed">
                                 <FontAwesomeIcon icon={faInstagram} />
