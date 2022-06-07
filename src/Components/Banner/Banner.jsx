@@ -20,10 +20,10 @@ class Banner extends Component {
                             />
                         </h1>
                         <p>
-                            I'm an expert in the field of Web Apps, Mobile Apps, Music Composers.
+                            I'm an expert in the field of Web Apps, Mobile Apps, Music Composers. I'm a lead full stack engineer at Cinda Logika Grafia
                         </p>
                         <p>
-                            The technologies I usually use are Laravel, Bootstrap, React js, React Native, JavaScript, MySQL, FL Studio and many more. This website my portfolio was built with React Js.
+                            The technologies I usually use are Laravel, Code Igniter, Bootstrap, React js, React Native, JavaScript, MySQL, FL Studio and many more. This website my portfolio was built with React Js.
                         </p>
                         <div className="btnHero">
                             <a href="#profile">
