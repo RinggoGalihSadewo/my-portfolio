@@ -123,7 +123,7 @@ class Project extends Component {
                             </div>
                         </div>
                         <div className="col-2" data-aos="fade-left" data-delay="400">
-                            <img src={soundcloud} alt="" />
+                            {/* <img src={soundcloud} alt="" /> */}
                             <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZAbiXfjiDrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{borderRadius: 10}}></iframe>
                         </div>
                     </div>
