@@ -116,11 +116,11 @@ class Project extends Component {
                     <div className="project7">
                         <div className="col-1 paragraph" data-aos="fade-right">
                             <p className="desc">I also make some music, such as single music, background music and many more. All the music I make is on Soundcloud, the software I use to make this music is FL Studio</p>
-                            <div className="linkProject">
+                            {/* <div className="linkProject">
                                 <a href="https://soundcloud.com/zailon" target="_blank">
                                     <FontAwesomeIcon icon={faSoundcloud} />
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-2" data-aos="fade-left" data-delay="400">
                             {/* <img src={soundcloud} alt="" /> */}
