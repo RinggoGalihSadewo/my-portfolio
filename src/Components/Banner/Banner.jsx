@@ -29,9 +29,9 @@ class Banner extends Component {
                             <a href="#profile">
                                 <button className="btn">VIEW PROFILE</button>
                             </a>
-                            <a href="https://github.com/RinggoGalihSadewo" target="_blank" className="sosmed">
+                            {/* <a href="https://github.com/RinggoGalihSadewo" target="_blank" className="sosmed">
                                 <FontAwesomeIcon icon={faGithub} />
-                            </a>
+                            </a> */}
                             <a href="http://www.linkedin.com/in/ringgo-galih-sadewo" target="_blank" className="sosmed">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
